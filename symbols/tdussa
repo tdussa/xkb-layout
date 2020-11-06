@@ -28,9 +28,9 @@ partial xkb_symbols "tdussa" {
     key <AD03> { [       period,     greater, dead_abovedot,   guillemotright ] };
     key <AD06> { [            f,           F,      NoSymbol,         NoSymbol ] };
     key <AD07> { [            g,           G,      NoSymbol,         NoSymbol, BackSpace ] };
-    key <AD08> { [            c,           C,      ccedilla,         Ccedilla,        Up, Pointer_Up ] };
+    key <AD08> { [            c,           C,      ccedilla,         Ccedilla,        Up, Pointer_Up,           Pointer_Up ] };
     key <AD09> { [            r,           R,    registered,       registered,    Delete ] };
-    key <AD10> { [            l,           L,       lstroke,          Lstroke,  NoSymbol, Pointer_Button4 ] };
+    key <AD10> { [            l,           L,       lstroke,          Lstroke,  NoSymbol, Pointer_Button4, Pointer_Button4 ] };
     key <AD11> { [        slash,    question,      sterling,     questiondown ] };
 
     key <AC01> { [            a,           A,    adiaeresis,       Adiaeresis ] };
@@ -39,13 +39,13 @@ partial xkb_symbols "tdussa" {
     key <AC04> { [            u,           U,    udiaeresis,       Udiaeresis ] };
     key <AC05> { [            i,           I,    idiaeresis,       Idiaeresis ] };
     key <AC06> { [            d,           D,           eth,              ETH,  Home ] };
-    key <AC07> { [            h,           H,      NoSymbol,         NoSymbol,  Left,  Pointer_Left ] };
-    key <AC08> { [            t,           T,         thorn,            THORN,  Down,  Pointer_Down ] };
-    key <AC09> { [            n,           N,        ntilde,           Ntilde, Right, Pointer_Right ] };
-    key <AC10> { [            s,           S,        ssharp,          section,   End, Pointer_Button5 ] };
+    key <AC07> { [            h,           H,      NoSymbol,         NoSymbol,  Left,  Pointer_Left,      Pointer_Left ] };
+    key <AC08> { [            t,           T,         thorn,            THORN,  Down,  Pointer_Down,      Pointer_Down ] };
+    key <AC09> { [            n,           N,        ntilde,           Ntilde, Right, Pointer_Right,     Pointer_Right ] };
+    key <AC10> { [            s,           S,        ssharp,          section,   End, Pointer_Button5, Pointer_Button5 ] };
 
     key <AB01> { [    semicolon,       colon,   dead_ogonek, dead_doubleacute ] };
-    key <AB07> { [            m,           M,            mu,        masculine,  Prior, Pointer_Button1 ] };
-    key <AB08> { [            w,           W,      NoSymbol,         NoSymbol, Insert, Pointer_Button2 ] };
-    key <AB09> { [            v,           V,      NoSymbol,         NoSymbol,   Next, Pointer_Button3 ] };
+    key <AB07> { [            m,           M,            mu,        masculine,  Prior, Pointer_Button1, Pointer_Button1 ] };
+    key <AB08> { [            w,           W,      NoSymbol,         NoSymbol, Insert, Pointer_Button2, Pointer_Button2 ] };
+    key <AB09> { [            v,           V,      NoSymbol,         NoSymbol,   Next, Pointer_Button3, Pointer_Button3 ] };
 };

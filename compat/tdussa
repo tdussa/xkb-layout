@@ -25,6 +25,12 @@ default partial xkb_compatibility "tdussa" {
 	action = MovePtr(x=+0,y=-1);
     };
 
+    interpret Pointer_Button4 {
+	action= PointerButton(button=4);
+    };
+    interpret Pointer_Button5  {
+	action= PointerButton(button=5);
+    };
     interpret.repeat= False;
 
     // New keysym actions.
@@ -40,12 +46,6 @@ default partial xkb_compatibility "tdussa" {
     };
     interpret Pointer_Button3 {
 	action= PointerButton(button=3);
-    };
-    interpret Pointer_Button4 {
-	action= PointerButton(button=4);
-    };
-    interpret Pointer_Button5  {
-	action= PointerButton(button=5);
     };
     interpret Pointer_DblClick_Dflt {
 	action= PointerButton(button=default,count=2);
